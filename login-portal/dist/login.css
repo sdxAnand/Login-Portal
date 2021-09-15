@@ -1,0 +1,235 @@
+body {
+  margin: 0;
+  padding: 3%;
+  background-image: url("/assets/finalLogin.png");
+  background-size: 100%;
+}
+
+div.container {
+  display: flex;
+  flex-direction: horizontal;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 80%;
+  margin: auto;
+  align-items: start;
+}
+
+div.image {
+  width: 50%;
+  display: flex;
+  width: 55%;
+}
+
+div.image img {
+  width: 100%;
+}
+
+div.login-box {
+  margin: 0;
+  padding: 0 0 0 6rem;
+  width: 30%;
+}
+
+h1.login-header {
+  font-weight: 100;
+  margin: 0 0 5rem 0;
+  padding: 0;
+}
+
+form.login-info {
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+
+label.login-label {
+  display: block;
+  font-size: 1.18rem;
+  margin-bottom: 0.8rem;
+  margin-top: 3rem;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  font-size: 1rem;
+  border-radius: 7px;
+  box-shadow: none;
+  border-style: none;
+}
+
+input.email {
+  color: black;
+  background-color: #eaf4ff;
+}
+
+input.email::placeholder {
+  color: black;
+}
+
+input.pwd {
+  background-color: #fbeaea;
+}
+
+input.pwd::placeholder {
+  color: red;
+}
+
+div.forgot-pwd-link {
+  width: 100%;
+  text-align: right;
+}
+
+a.forgot-pwd {
+  width: 100%;
+  text-decoration: none;
+  margin-right: -27px;
+}
+
+div.login-btn {
+  margin: 3rem 0;
+  width: 100%;
+  text-align: center;
+}
+
+div.login-btn button {
+  margin: auto;
+  padding: 0.8rem 4rem;
+  background-color: #3775ff;
+  color: white;
+  font-size: 1rem;
+  font-weight: 900;
+  border-radius: 7px;
+  border-style: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+div.hr-line {
+  font-size: 1.3rem;
+  margin: 5rem auto 3rem;
+  display: flex;
+  flex-direction: horizontal;
+  justify-content: space-between;
+}
+
+div.extra {
+  color: #8da7ce;
+}
+
+div.line {
+  width: 30%;
+}
+
+div.other-ways {
+  margin: 2rem auto 5rem;
+  padding: 0 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-media {
+  width: 30px;
+}
+
+div.signup {
+  font-size: 1.1rem;
+  width: fit-content;
+  margin: auto;
+}
+
+div.signup a {
+  text-decoration: none;
+  font-weight: 100;
+  color: #3e85ff;
+}
+
+@media screen and (max-width: 1800px) {
+  h1.login-header {
+    margin: 0;
+  }
+
+  label.login-label {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  div.login-btn {
+    width: 100%;
+    margin: 2rem auto;
+  }
+
+  div.hr-line {
+    margin: 3rem auto 1rem;
+  }
+
+  div.other-ways {
+    margin: 2rem auto 2rem;
+  }
+
+  div.extra {
+    font-size: 1.1rem;
+    margin-top: 0.01rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  div.container {
+    display: block;
+  }
+
+  div.image {
+    width: 75%;
+    margin: auto;
+  }
+
+  div.login-box {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 2rem;
+  }
+
+  h1.login-header {
+    margin: 0;
+  }
+
+  label.login-label {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  input,
+div.forgot-pwd-link,
+label.login-label,
+h1.login-header {
+    width: fit-content;
+    width: 80%;
+    margin-left: 18%;
+  }
+
+  div.login-btn {
+    width: 100%;
+  }
+
+  div.hr-line {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  div.extra {
+    font-size: 0.8rem;
+    margin-top: 0.05rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  div.other-ways a {
+    padding: 5px;
+  }
+
+  div.extra {
+    font-size: 0.8rem;
+    margin-top: 0.01rem;
+  }
+}
